@@ -1,6 +1,6 @@
-importScripts("https://raw.githubusercontent.com/tenakskd/kasuguma/refs/heads/master/static/contact/mathematics.js");
+importScripts("https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/contact/mathematics.js");
 importScripts("/contact/geography.js");
-importScripts("https://raw.githubusercontent.com/tenakskd/kasuguma/refs/heads/master/static/contact/english.js");
+importScripts("https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/english.js");
 
 const sw = new UVServiceWorker();
 let userKey = new URL(location).searchParams.get('userkey');
