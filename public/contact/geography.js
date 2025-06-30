@@ -1,5 +1,5 @@
 function _0x3e11() {
-    var _0x30fb0b = ['/contact/geography.js', '/outerspace/', 'decode', '23620CMpVSx', '10ZnLJqY', 'https://raw.githubusercontent.com/Tenakskd/kasuguma/refs/heads/master/static/contact/english.js', 'xor', '1060RcCtPS', '220734wgUCim', '40190vbXRmu', '90893fqUxcP', 'https://raw.githubusercontent.com/Tenakskd/kasuguma/refs/heads/master/static/contact/mathematics.js', 'codec', 'encode', '2001258XuelFK', '546948HQSmqQ', '32zElkGB', '888180WjpZuh', '264JosIdb'];
+    var _0x30fb0b = ['/public/geography.js', '/outerspace/', 'decode', '23620CMpVSx', '10ZnLJqY', 'https://raw.githubusercontent.com/Tenakskd/kasuguma/refs/heads/master/static/contact/english.js', 'xor', '1060RcCtPS', '220734wgUCim', '40190vbXRmu', '90893fqUxcP', 'https://raw.githubusercontent.com/Tenakskd/kasuguma/refs/heads/master/static/contact/mathematics.js', 'codec', 'encode', '2001258XuelFK', '546948HQSmqQ', '32zElkGB', '888180WjpZuh', '264JosIdb'];
     _0x3e11 = function() {
         return _0x30fb0b;
     };
