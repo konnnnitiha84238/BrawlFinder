@@ -3,8 +3,8 @@ self.__uv$config = {
     bare: '/outerspace/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: 'https://raw.githubusercontent.com/konnnnitiha84238/kasuguma/refs/heads/master/static/contact/algebra.js',
-    bundle: 'https://raw.githubusercontent.com/konnnnitiha84238/kasuguma/refs/heads/master/static/contact/mathematics.js',
+    handler: 'https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/contact/algebra.js',
+    bundle: 'https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/contact/mathematics.js',
     config: '/public/geography.js',
-    sw: 'https://raw.githubusercontent.com/konnnnitiha84238/kasuguma/refs/heads/master/static/contact/english.js'
+    sw: 'https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/contact/english.js'
 };
