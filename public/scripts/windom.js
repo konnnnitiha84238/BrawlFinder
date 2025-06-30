@@ -13,93 +13,93 @@ document.addEventListener("DOMContentLoaded", function(event) {
   themeEle = document.createElement("link");
   themeEle.rel="stylesheet";
   if(themeid == "b") {
-      themeEle.href = "/css/themes/bannana.css";
-  }
-  if(themeid == "bg") {
-      themeEle.href = "/css/themes/blue-green.css";
-  }
-  if(themeid == "cr") {
-      themeEle.href = "/css/themes/cherryRed.css";
-  }
-  if(themeid == "d") {
-      themeEle.href = "/css/themes/dark.css";
-  }
-  if(themeid == "fg") {
-      themeEle.href = "/css/themes/forestGreen.css";
-  }
-  if(themeid == "light") {
-      themeEle.href = "/css/theme/solid/light.css";
-  }
-  if(themeid == "m") {
-      themeEle.href = "/css/themes/milkshake.css";
-  }
-  if(themeid == "nb") {
-      themeEle.href = "/css/themes/nightBlue.css";
-  }
-  if(themeid == "rb") {
-      themeEle.href = "/css/themes/red-black.css";
-  }
-  if(themeid == "v4") {
-      themeEle.href = "/css/theme/solid/legacy.css";
-  }
-  if(themeid == "midnight") {
-    themeEle.href = "/css/theme/solid/midnight.css";
-  }
-  if(themeid == "black-red") {
-    themeEle.href = "/css/theme/gradient/black-red.css";
-  }
-  if(themeid == "black-blue") {
-    themeEle.href = "/css/theme/gradient/black-blue.css";
-  }
-  if(themeid == "black-green") {
-    themeEle.href = "/css/theme/gradient/black-green.css";
-  }
-  if(themeid == "red") {
-    themeEle.href = "/css/theme/gradient/red.css";
-  } 
-  if(themeid == "purple") {
-    themeEle.href = "/css/theme/gradient/purple.css";
-  }
-  if(themeid == "black-orange") {
-    themeEle.href = "/css/theme/gradient/black-orange.css";
-  }
-  if(themeid == "ocean-blue") {
-    themeEle.href = "/css/theme/solid/ocean-blue.css";
-  }
-  if(themeid == "black-purple") {
-    themeEle.href = "/css/theme/gradient/black-purple.css";
-  }
-  if(themeid == "black-coral") {
-    themeEle.href = "/css/theme/gradient/black-coral.css";
-  }
-  if(themeid == "black-ruby") {
-    themeEle.href = "/css/theme/gradient/black-ruby.css";
-  }
-  if(themeid == "black-yellow") {
-    themeEle.href = "/css/theme/gradient/black-yellow.css";
-  }
-  if(themeid == "black-pink") {
-    themeEle.href = "/css/theme/gradient/black-pink.css";
-  }
-  if(themeid == "black-white") {
-    themeEle.href = "/css/theme/gradient/black-white.css";
-  }
-  if(themeid == "dark-purple") {
-    themeEle.href = "/css/theme/gradient/dark-purple.css";
-  }
-  if(themeid == "sunset") {
-    themeEle.href = "/css/theme/gradient/sunset.css";
-  }
-  if(themeid == "indigo") {
-    themeEle.href = "/css/theme/gradient/indigo.css";
-  }
-  if(themeid == "fire-ice") {
-    themeEle.href = "/css/theme/gradient/fire-ice.css";
-  }
-  if(themeid == "purple-blue") {
-    themeEle.href = "/css/theme/gradient/purple-blue.css";
-  }
-  document.body.appendChild(themeEle);
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/bannana.css";
+}
+if(themeid == "bg") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/blue-green.css";
+}
+if(themeid == "cr") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/cherryRed.css";
+}
+if(themeid == "d") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/dark.css";
+}
+if(themeid == "fg") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/forestGreen.css";
+}
+if(themeid == "light") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/solid/light.css";
+}
+if(themeid == "m") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/milkshake.css";
+}
+if(themeid == "nb") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/nightBlue.css";
+}
+if(themeid == "rb") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/themes/red-black.css";
+}
+if(themeid == "v4") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/solid/legacy.css";
+}
+if(themeid == "midnight") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/solid/midnight.css";
+}
+if(themeid == "black-red") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-red.css";
+}
+if(themeid == "black-blue") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-blue.css";
+}
+if(themeid == "black-green") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-green.css";
+}
+if(themeid == "red") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/red.css";
+}
+if(themeid == "purple") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/purple.css";
+}
+if(themeid == "black-orange") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-orange.css";
+}
+if(themeid == "ocean-blue") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/solid/ocean-blue.css";
+}
+if(themeid == "black-purple") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-purple.css";
+}
+if(themeid == "black-coral") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-coral.css";
+}
+if(themeid == "black-ruby") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-ruby.css";
+}
+if(themeid == "black-yellow") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-yellow.css";
+}
+if(themeid == "black-pink") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-pink.css";
+}
+if(themeid == "black-white") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/black-white.css";
+}
+if(themeid == "dark-purple") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/dark-purple.css";
+}
+if(themeid == "sunset") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/sunset.css";
+}
+if(themeid == "indigo") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/indigo.css";
+}
+if(themeid == "fire-ice") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/fire-ice.css";
+}
+if(themeid == "purple-blue") {
+    themeEle.href = "https://cdn.jsdelivr.net/gh/wakame02/kasukuma@master/static/css/theme/gradient/purple-blue.css";
+}
+document.body.appendChild(themeEle);
 });
 
 document.addEventListener("DOMContentLoaded", function() {
