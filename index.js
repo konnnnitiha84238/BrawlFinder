@@ -8,6 +8,8 @@ import session from 'express-session';
 import ejs from 'ejs';
 import axios from 'axios';
 import miniget from 'miniget';
+import ytpl from 'ytpl';
+import ytsr from 'ytsr';
 import bodyParser from 'body-parser';
 
 const __dirname = process.cwd();
@@ -15,8 +17,8 @@ const server = http.createServer();
 const app = express(server);
 const bareServer = createBareServer('/outerspace/');
 const PORT = 8080;
-const limit = 50;
-const user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15";
+const limit = process.env.LIMIT || 50;
+const user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15";
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
@@ -25,7 +27,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 app.use(session({
-    secret: 'toxdikceiobxrukabxyialvsikcsukba',
+    secret: 'wakamedayoooooooooooharusameeeeeee',
     resave: false,
     saveUninitialized: true
 }));
@@ -40,7 +42,7 @@ app.use((req, res, next) => {
     }
 });
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'static')));
 
 //ログイン済み？
 app.get('/login/if', async (req, res) => {
@@ -104,8 +106,6 @@ const routes = [
   { path: '/image-galleries', file: 'go.html' },
   { path: '/help', file: 'help.html' },
 ]
-
-
 
 app.get('/image-galleries', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'go.html'));
