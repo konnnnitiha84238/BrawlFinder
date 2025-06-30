@@ -5,6 +5,6 @@ self.__uv$config = {
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: 'https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/contact/algebra.js',
     bundle: 'https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/contact/mathematics.js',
-    config: '/public/geography.js',
+    config: '/contact/geography.js',
     sw: 'https://cdn.jsdelivr.net/gh/Tenakskd/kasuguma@master/static/contact/english.js'
 };
