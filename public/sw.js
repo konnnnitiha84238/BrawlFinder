@@ -38,7 +38,7 @@ function _0x146c() {
         'fetch', 'respondWith', 'http://raw.githubusercontent.com/Tenakskd/kasuguma/refs/heads/master/static/contact/english.js', '82894ZzHxbR', 
         '1770908SFvBJw', '12655AGuGLr', '505242gqAwtf', 'http://raw.githubusercontent.com/Tenakskd/kasuguma/refs/heads/master/static/contact/mathematics.js', 
         '611610ElGIFK', '1733214zHGooS', '916MAyTwT', '19348656PyAhkR', 
-        '/contact/geography.js', 'userkey', 'searchParams'
+        '/public/geography.js', 'userkey', 'searchParams'
     ];
     _0x146c = function() { return _0x422452; };
     return _0x146c();
