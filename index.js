@@ -27,7 +27,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 app.use(session({
-    secret: 'wakamedayoooooooooooharusameeeeeee',
+    secret: 'yasumadayoooooooooooharusameeeeeee',
     resave: false,
     saveUninitialized: true
 }));
