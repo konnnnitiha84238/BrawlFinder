@@ -1,6 +1,6 @@
 import express from 'express';
 import http from 'node:http';
-import createBareServer from "educational-br-sr";
+import createBareServer from "@tomphttp/bare-server-node";
 import path from 'node:path';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
