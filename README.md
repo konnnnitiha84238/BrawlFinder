@@ -1,5 +1,5 @@
 # BrawlFinder
-ログイン画面付きのプロクシサイト。renderにはデプロイしないでください。もしすればあなたはバンされるでしょう
+ログイン画面付きのブロスタファインダー。これをrender.comでデプロイしないでください。supercell apiは自分のを使ってください！
 # 🚀Deploy
 build commmand
 yarn
