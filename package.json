@@ -12,7 +12,7 @@
   "author": "wakame",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "educational-br-sr": "^1.2.6",
+    "educational-br-sr": "github:konnnnitiha84238/brawl-api",
     "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "cookie-parser": "^1.4.6",
