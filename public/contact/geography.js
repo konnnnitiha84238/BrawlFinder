@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/reviews/',
+    prefix: '/bare/',
     bare: '/outerspace/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
